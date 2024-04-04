@@ -26,7 +26,7 @@ export const Navbar = ({
       <div className="flex items-center">
         <Mobilesidebar isPro={false} />
         <Link href="/">
-          <h1 className={cn("hidden md:block text-xl md:text-3xl font-bold text-primary nav-img", font.className)}>
+          <h1 className={cn("hidden md:block text-xl md:text-3xl font-bold text-primary nav-img text-white", font.className)}>
           ImagesFusion
           </h1>
         </Link>
