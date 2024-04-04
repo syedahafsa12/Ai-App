@@ -27,7 +27,7 @@ export const Navbar = ({
         <Mobilesidebar isPro={false} />
         <Link href="/">
           <h1 className={cn("hidden md:block text-xl md:text-3xl font-bold text-primary nav-img text-white", font.className)}>
-          ImagesFusion
+          PixelGenie
           </h1>
         </Link>
       </div>
