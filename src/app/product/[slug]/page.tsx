@@ -54,57 +54,10 @@ async function getData(slug: string) {
           {/* <h2 className='text-1xl font-bold text-red-600 lg:text-1xl'>DOWNLOAD NOW</h2> */}
           </div>
 
-          {/* <div className="mb-6 flex items-center gap-3 md:mb-10">
-            <Button className="rounded-full gap-x-2">
-              <span className="text-sm">4.2</span>
-              <Star className="h-5 w-5" />
-            </Button>
-
-            <span className="text-sm text-white transition duration-100">
-              56 Ratings
-            </span>
-          </div> */}
-
-          {/* <div className="mb-4">
-            <div className="flex items-end gap-2">
-              <span className="text-xl font-bold text-white md:text-2xl">
-                ${data.price}
-              </span>
-              <span className="mb-0.5 text-red-500 line-through">
-                ${data.price + 20}
-              </span>
-            </div> */}
-
-            {/* <span className="text-sm text-white">
-              Incl. Vat plus shipping
-            </span> */}
+        
           </div>
 
-          {/* <div className="mb-6 flex items-center gap-2 text-white">
-            <Truck className="w-6 h-6" />
-            <span className="text-sm">2-4 Day Shipping</span>
-          </div> */}
-
-          {/* <div className="flex gap-2.5">
-            <AddToBag
-              currency="USD"
-              description={data.description}
-              image={data.images[0]}
-              name={data.name}
-              price={data.price}
-              key={data._id}
-              price_id={data.price_id}
-            />
-            <CheckoutNow
-              currency="USD"
-              description={data.description}
-              image={data.images[0]}
-              name={data.name}
-              price={data.price}
-              key={data._id}
-              price_id={data.price_id}
-            />
-          </div> */}
+         
 
          
         </div>
